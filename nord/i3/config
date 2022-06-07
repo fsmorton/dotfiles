@@ -207,3 +207,10 @@ for_window [class="^.*"] border pixel 2
 client.focused #88C0D0 #88C0D0 #88C0D0
 
 client.unfocused #5e81ac #5e81ac #5e81ac
+
+# multi monitor setup
+
+# use with monitor at home
+bindsym $mod+Shift+y exec --no-startup-id xrandr --output eDP-1 --off --output HDMI-1 --auto
+# use with laptop
+bindsym $mod+Shift+m exec --no-startup-id xrandr --output eDP-1 --auto --output HDMI-1 --off
