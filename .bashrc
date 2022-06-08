@@ -1,3 +1,4 @@
+alias 2022='echo "2022 is the year of the linux desktop!"'
 #
 # ~/.bashrc
 #
@@ -44,4 +45,4 @@ alias ls='ls --color=auto'
 
 # bash prompt
 
-export PS1="\[\033[38;5;177m\]\w\[$(tput sgr0)\] >\[$(tput sgr0)\]"
+export PS1="\[\033[38;5;75m\]\w\[$(tput sgr0)\] >\[$(tput sgr0)\]"
