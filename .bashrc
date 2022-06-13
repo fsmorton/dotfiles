@@ -6,6 +6,9 @@ alias 2022='echo "2022 is the year of the linux desktop!"'
 #the most important: allow vim shortcuts
 set -o vi
 
+# makes using nvim easier
+alias nv='neovim'
+
 # common shortcuts
 
 alias c='clear'
@@ -20,6 +23,7 @@ alias ga='git add'
 alias gaa='git add --all'
 alias gc='git commit'
 alias gp='git push'
+alias gpom='git push origin main'
 
 # pacman & yay
 
@@ -33,11 +37,10 @@ alias yayr='yay -Rns'
 
 alias makeweb='touch index.html main.js style.css'
 alias py='python3'
+
 # cowsay
-
-# fun
-
 alias cow='cowsay $(fortune)'
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
