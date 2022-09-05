@@ -36,6 +36,7 @@ alias yayrkd='yay -R'
 alias makeweb='touch index.html main.js style.css'
 alias py='python3'
 alias nv='nvim'
+alias lvim='~/.local/bin/lvim'
 
 # cowsay
 alias cow='cowsay $(fortune)'
