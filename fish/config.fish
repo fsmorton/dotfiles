@@ -42,4 +42,6 @@ alias lvim='~/.local/bin/lvim'
 alias cow='cowsay $(fortune)'
 
 # youtube download
-alias musicd='youtube-dl -x --audio-format mp3'
+alias musicd='yt-dlp --format bestaudio --extract-audio --audio-format mp3 --audio-quality 160K'
+
+export "MICRO_TRUECOLOR=1"
